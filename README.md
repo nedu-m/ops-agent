@@ -4,6 +4,8 @@ An internal operations automation agent. Paste a meeting transcript into Slack v
 `/meetingnotes`, and the agent extracts action items using Claude and creates ClickUp
 tasks automatically — with assignee and due date when mentioned.
 
+**Live demo:** https://ops-agent.streamlit.app
+
 ## Demo
 
 **Slack — `/meetingnotes` command**
