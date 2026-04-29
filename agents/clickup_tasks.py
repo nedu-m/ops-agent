@@ -12,7 +12,7 @@ LIST_ID = os.environ["CLICKUP_LIST_ID"]
 def create_task(title: str, assignee: str | None = None, due_date: str | None = None) -> dict:
     headers = {"Authorization": TOKEN, "Content-Type": "application/json"}
 
-    payload = {"name": title, "status": "to do"}
+    payload = {"name": title}
 
     if assignee:
         payload["description"] = f"Assigned to: {assignee}"

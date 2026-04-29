@@ -4,6 +4,14 @@ An internal operations automation agent. Paste a meeting transcript into Slack v
 `/meetingnotes`, and the agent extracts action items using Claude and creates ClickUp
 tasks automatically — with assignee and due date when mentioned.
 
+## Demo
+
+**Slack — `/meetingnotes` command**
+![Slack command](assets/slack_command.png)
+
+**ClickUp — tasks created automatically**
+![ClickUp tasks](assets/clickup_tasks.png)
+
 ## What it does
 
 ```

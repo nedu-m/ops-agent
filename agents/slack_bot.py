@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-from agents.extractor import extract_action_items
-from agents.clickup_tasks import create_tasks
+from extractor import extract_action_items
+from clickup_tasks import create_tasks
 
 load_dotenv()
 
